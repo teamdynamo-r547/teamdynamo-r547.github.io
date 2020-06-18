@@ -1,0 +1,26 @@
+/*!
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+.vert-nav li {
+  padding-bottom: 20px;
+}
+.sub-vert-nav li {
+  font-size: 13px;
+  list-style-type: none;
+}
+.page-nav {
+  font-size: 18px;
+  background-color: #eee;
+  padding: 10px;
+}
+.next-button {
+  text-align: right;
+}
+.previous-button {
+  text-align: left;
+}

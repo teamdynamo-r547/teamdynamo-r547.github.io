@@ -35,3 +35,12 @@ body {
 	list-style-type: none;
 	padding-bottom: 10px;
 }
+.qc_container {
+	background-color:#9FECEA;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#results {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

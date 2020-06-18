@@ -91,11 +91,11 @@
         </p>
 
         <hr>
-
-        <!-- Preview Image -->
-        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="" style="padding-bottom: 10px">
-
+		  
         <!-- Post Content -->
+		<div id="quiz"></div>
+		<button id="submit">Get Results</button>
+		<div id="results"></div>
 
 
       </div>
@@ -103,13 +103,13 @@
         
       </div>
       <div class="col-sm-2 page-nav previous-button">
-        <a href="quickcheck01.html">< Previous</a>
+        <a href="document05.html">< Previous</a>
       </div>
       <div class="col-md-4">
         
       </div>
       <div class="col-sm-2 page-nav next-button">
-        <a href="document01.html">Next ></a>
+        <a href="conclusion.html">Next ></a>
       </div>
 
     </div>
@@ -130,6 +130,16 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Quiz JavaScript -->
+  <script src="scripts/quiz.js"></script>
+	  <script type="text/javascript">
+		  
+		var quizContainer = document.getElementById('quiz');
+		var resultsContainer = document.getElementById('results');
+		var submitButton = document.getElementById('submit');
+	  	generateQuiz(quickCheck3, quizContainer, resultsContainer, submitButton);
+	  </script>
+	  
 </body>
 
 </html>

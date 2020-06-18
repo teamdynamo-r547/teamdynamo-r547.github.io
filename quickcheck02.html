@@ -91,11 +91,11 @@
         </p>
 
         <hr>
-
-        <!-- Preview Image -->
-        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="" style="padding-bottom: 10px">
-
+		  
         <!-- Post Content -->
+		<div id="quiz"></div>
+		<button id="submit">Get Results</button>
+		<div id="results"></div>
 
 
       </div>
@@ -129,6 +129,16 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	  
+  <!-- Quiz JavaScript -->
+  <script src="scripts/quiz.js"></script>
+	  <script type="text/javascript">
+		  
+		var quizContainer = document.getElementById('quiz');
+		var resultsContainer = document.getElementById('results');
+		var submitButton = document.getElementById('submit');
+	  	generateQuiz(quickCheck2, quizContainer, resultsContainer, submitButton);
+	  </script>
 
 </body>
 

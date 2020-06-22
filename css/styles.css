@@ -6,6 +6,10 @@
 body {
   padding-top: 56px;
 }
+.subtitle {
+	color: #A90003;
+	font-style: bold;
+}
 .vert-nav li {
   padding-bottom: 20px;
 }
